@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/index3.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+</head>
+<body>
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/large/IMG_3511.JPG" ></div>
+            <div class="swiper-slide"><img src="img/large/IMG_3512.JPG"></div>
+            <div class="swiper-slide"><img src="img/large/IMG_3513.JPG"></div>
+            <div class="swiper-slide"><img src="img/large/IMG_3514.JPG"></div>
+            <div class="swiper-slide"><img src="img/large/IMG_3516.JPG"></div>
+            <div class="swiper-slide"><img src="img/large/IMG_3517.JPG"></div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          autoplay:true,
+          autoplaySpeed: 2000,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          }
+          
+        });
+      </script>
+</body>
+</html>
+

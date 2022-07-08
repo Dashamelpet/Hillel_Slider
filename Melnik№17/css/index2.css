@@ -1,0 +1,31 @@
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+img{
+    
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 20px;
+}
+.slider{
+    width: 75%;
+    margin: 50px auto;
+}
+    
+.slick-slide {
+    margin: 0 10px;
+    color: #FFF;
+    text-align: center;
+    height: 250px;
+  }
+.slick-slide {
+	transform: scale(1);
+	transition: .3s ease-in-out all;
+}
+.slick-slide.slick-current {
+	opacity: 1;
+	transform: scale(1.05);}
+
